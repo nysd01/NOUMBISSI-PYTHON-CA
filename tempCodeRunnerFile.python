@@ -1,0 +1,11 @@
+def multiplication_table(number,limit):
+    for i in limit:
+        result = number * i
+        print(f"{number} * {i} = {result}")
+
+if __name__ == "main":
+    num = int(input("Enter the number you want it's table of multiplication: "))
+    ranges = int(input("Enter the range limits: "))
+    multiplication_table(num, ranges)
+    
+    
